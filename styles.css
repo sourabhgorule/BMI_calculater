@@ -1,0 +1,49 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+#main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f8eded;
+    height: 100%;
+
+}
+#sub_main{
+    background-color: #e4efe7;
+    padding: 15px;
+    border: solid black;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Squada One', cursive;
+
+}
+#gender_box{
+    padding-left: 60px;
+}
+#submit{
+    text-align: center;
+    background-color: #4aa96c;
+    width: 90px;
+    border-radius: 23px;
+    margin-left: 10px;
+}
+#reset{
+    background-color: #ffc947;
+    width: 90px;
+    border-radius: 23px;
+    margin-left: 20px;
+}
+#label_font{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+}
+input:hover{
+    background-color: #f2f4c3;
+}
